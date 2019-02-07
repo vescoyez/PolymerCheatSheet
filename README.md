@@ -1,24 +1,24 @@
-#Polymer Cheat Sheet
+# Polymer Cheat Sheet
 
-##data binding
+## data binding
 
-###One-way data-binding
+### One-way data-binding
 
-#####example:
+##### example:
 ```html
 <h1>[[data]]</h1>
 ```
 
-###Two-way data-binding
+### Two-way data-binding
 
-#####example:
+##### example:
 ```html
 <input value="{{data}}" type="text">
 ```
 
-###Update value with javascript
+### Update value with javascript
 
-#####example:
+##### example:
 ```javascript
 this.set('data', newValue);
 ```
@@ -37,7 +37,7 @@ other method like: push, pop, splice, shift, unshift
 this.push('array', item);
 ```
 
-###filter
+### filter
 
 ```html
 <template is="dom-repeat" items="[[myArray]]" filter="isOdd" observe="count">
